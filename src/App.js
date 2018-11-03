@@ -125,6 +125,8 @@ class App extends Component {
                 </label>
               </div>
             ))}
+            <button id="submit" type="button" className="btn btn-success btn-block" onClick={() => this.handleClick()}>Submit</button>
+            <button id="reset" type="button" className="btn btn-danger btn-block" onClick={() => this.handleReset()}>Start Over</button>
           </div>
         );
       } else {
@@ -133,6 +135,7 @@ class App extends Component {
             <p>Results!</p>
             <p>{this.state.answerPoints} / 5</p>
             <p>{this.state.results[this.state.answerPoints]}</p>
+            <button id="reset" type="button" className="btn btn-danger btn-block" onClick={() => this.handleReset()}>Start Over</button>
           </div>
         )
       }
@@ -150,8 +153,6 @@ class App extends Component {
               onChange={(e) => this.handleOnChange(e)}
               selected={this.state.selectedOption} />
           </div>
-          <button id="submit" type="button" className="btn btn-success btn-block" onClick={() => this.handleClick()}>Submit</button>
-          <button id="reset" type="button" className="btn btn-danger btn-block" onClick={() => this.handleReset()}>Start Over</button>
         </div>
       </div>
     );
