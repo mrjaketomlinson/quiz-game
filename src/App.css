@@ -1,3 +1,23 @@
+h1 {
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+label {
+  margin: 0 10px 15px 10px;
+  padding: 5px;
+}
+
+input {
+  margin: 0 0 0 10px;
+}
+
+button {
+  margin: 5px;
+}
+
 .question-box {
   background-color: #FFF;
   border: 2px solid rgb(96, 96, 96);
@@ -19,17 +39,4 @@
 .results {
   font-size: 2em;
   font-weight: bold;
-}
-
-label {
-  margin: 0 10px 15px 10px;
-  padding: 5px;
-}
-
-input {
-  margin: 0 0 0 10px;
-}
-
-button {
-  margin: 5px;
 }
