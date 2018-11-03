@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  height: 96vh;
+  width: 100vw;
   font-family: sans-serif;
   text-align: center;
-  background-color: rgb(224, 140, 42);
+  background: url(https://rush.house.gov/sites/rush.house.gov/files/featured_image/us-flag-21-apr-2017.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
